@@ -19,7 +19,7 @@ class _ChatsPageState extends State<ChatsPage> {
               ),
               ListTile(
                   leading: CircleAvatar(
-                    radius: 24,
+                    radius: 28,
                     backgroundImage: NetworkImage(chats[i].url),
                     foregroundColor: Theme.of(context).primaryColor,
                   ),
@@ -29,11 +29,11 @@ class _ChatsPageState extends State<ChatsPage> {
                       Text(
                         chats[i].name,
                         style: TextStyle(
-                            fontWeight: FontWeight.w700, fontSize: 18),
+                            fontWeight: FontWeight.w700, fontSize: 19),
                       ),
                       Text(
                         chats[i].time,
-                        style: TextStyle(color: Colors.grey, fontSize: 14),
+                        style: TextStyle(color: Colors.grey, fontSize: 15),
                       )
                     ],
                   ),

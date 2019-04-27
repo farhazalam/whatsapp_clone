@@ -19,13 +19,13 @@ class _CallsPageState extends State<CallsPage> {
               ),
               ListTile(
                 leading: CircleAvatar(
-                  radius: 24,
+                  radius: 28,
                   backgroundImage: NetworkImage(callList[i].url),
                   foregroundColor: Theme.of(context).primaryColor,
                 ),
                 title: Text(
                   callList[i].name,
-                  style: TextStyle(fontWeight: FontWeight.w700, fontSize: 18),
+                  style: TextStyle(fontWeight: FontWeight.w700, fontSize: 19),
                 ),
                 subtitle: Row(
                   children: <Widget>[
